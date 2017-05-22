@@ -1,0 +1,119 @@
+body {
+    background: rgb(243,239,232);
+}
+.bg-white {
+    background-color: rgb(255,251,245);
+}
+.header{
+  border-color:#fff;
+  border-color:rgb(212,207,192);
+  display: flex;
+  align-items: center;
+  .form-item{
+    display: flex;
+    align-items: center;
+  }
+  .fa{
+    font-size: 14px;
+    border-color:rgb(212,207,192);
+    color:rgb(96,94,87);
+  }
+  .fa-twitter{
+    color:#0084b4;
+    font-size: 40px;
+  }
+  .fa-leaf{
+    background: #0084b4;
+    border-color: #0084b4;
+    color:#fff;
+  }
+  #search-form{
+    position: relative;
+    .flexy-search{
+      display: flex;
+      -webkit-box-align: center;
+      align-items: center;
+      .search-field{
+        border: 1px solid #ccc;
+        border-radius: 50px;
+        box-shadow: none;
+        width: 100%;
+        padding:10px;
+        font-size: 18px;
+        color: black;
+      }
+      #search-label{
+        position: absolute;
+        top: 10px;
+        right: 8px;
+        .fa-search{
+          font-size: 20px;
+        }
+      }
+    }
+  }
+  .left-menu{
+    .item{
+      border-color: rgb(243,239,232);
+      i{
+       cursor: pointer;
+       &:hover{
+         background: #0084b4;
+         border-color: #0084b4;
+         color:#fff;
+       }
+     }
+    }
+  }
+  .right-menu {
+    .item{
+      cursor: pointer;
+    }
+  }
+}
+
+.twitter-info-section{
+  font-size: 20px;
+  line-height: 24px;
+  box-shadow: 0 4px 5px 0px rgba(0, 0, 0, 0.1);
+  p.mb0{
+    color:rgb(212,207,192);
+  }
+  p.h3{
+    color:rgb(96,94,87);
+  }
+  .active{
+    border-color: #0084b4;
+    border-width: 4px;
+  }
+  .tab{
+    cursor: pointer;
+  }
+}
+.tweets{
+  img.fit{
+    width:100%;
+    height: 250px;
+  }
+  color:rgb(212,207,192);
+  .name{
+    color:rgb(104,102,109);
+    .fa-retweet{
+      color:rgb(156,220,114);
+    }
+  }
+
+  .tweet-detail{
+    color:rgb(104,102,109);
+    line-height: 24px;
+    font-size: 18px;
+  }
+  .tweet-share{
+    a{
+      color:#d4cfc0;
+      &:hover{
+        color:#0084b4;
+      }
+    }
+  }
+}
